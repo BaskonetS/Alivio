@@ -88,7 +88,7 @@ a {
 }
 
 .sing-in_text {
-  font-family: "Lato";
+  font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -107,7 +107,7 @@ a {
 }
 
 .start-trial_text {
-  font-family: "Lato";
+  font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -132,10 +132,7 @@ a {
   position: relative;
   left: -460px;
   top: -90px;
-  
-  
   max-width: 440px;
-  
 }
 
 .intro-title {
@@ -149,7 +146,7 @@ a {
 }
 
 .intro-text {
-  font-family: "Lato";
+  font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -170,12 +167,66 @@ a {
 }
 
 .intro-btn_text{
-  
-  font-family: "Lato";
+  font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.work{
+  display: flex;
+  justify-content: center;
+  min-width: 1440px;
+}
+  
+.wrapper-work{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 169px;
+  
+}  
+
+.subtitle{
+  margin-bottom: 20px;
+  
+}
+
+.subtitle-text{
+  font-family: "Lora";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.work-top_block{
+  display: flex;
+}
+
+.work-top_title__text{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
+.work-top_txt{
+  display: flex;
+  align-items: center;
+  margin-left: 136px;
+}
+
+.work-top_txt__text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
 }
