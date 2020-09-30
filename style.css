@@ -1,5 +1,5 @@
 html {
-  min-width: 1440px;
+  min-width: 1440px; 
 }
 
 *{
@@ -13,11 +13,10 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 10px auto;
   font-size: 20px;
   font-family: "Lora", "Vollkorn", serif;
   min-width: 1440px;
-  padding: 0 5px;
   background: #e5e5e5;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,13 +41,13 @@ a {
 
 .container {
   max-width: 1920px;
+  min-width: 1440px;
   margin: 0 auto;
   background-color: #ffffff;
 }
   
 .header {
   display: flex;
-  min-width: 1440px;
   min-height: 85px;
   align-items: center;
   justify-content: space-around;
@@ -75,11 +74,17 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #292929;
+  cursor: pointer;
+}
+
+.nav__link:hover{
+  color: #01996D;
+  border-bottom: 2px solid #01996D;
+  transition: 0.1s linear;
 }
 
 .system-buttons {
   display: flex;
-  
 }
 
 .btn__sing-in {
@@ -123,7 +128,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 1440px;
   height: 895px;
   background: no-repeat center url("img/img-header.png");
   background-size: cover;
@@ -182,7 +186,6 @@ a {
 .work{
   display: flex;
   justify-content: center;
-  min-width: 1440px;
 }
   
 .wrapper-work{
@@ -190,13 +193,8 @@ a {
   justify-content: center;
   flex-direction: column;
   margin-top: 169px;
-  
+  margin-bottom: 51px;
 }  
-
-.subtitle{
-  margin-bottom: 20px;
-  
-}
 
 .subtitle-text{
   font-family: "Lora";
@@ -220,9 +218,10 @@ a {
 }
 
 .work-top_txt{
-  display: flex;
-  align-items: center;
+  margin-top: 20px;
   margin-left: 136px;
+  min-height: 269px;
+  max-width: 695px;
 }
 
 .work-top_txt__text{
@@ -233,3 +232,161 @@ a {
   line-height: 150%;
   color: #424242;
 }
+
+.work_bottom--wrapper{
+  display: flex;
+}
+
+.work__card1{
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+}
+
+.card1__icon{
+  margin-left: 10px;
+}
+
+.card1__title{
+  text-align: center;
+}
+
+.card1__title--text{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  position: relative;
+  top: -34px;
+  left: -18px;
+}
+
+.card1__description{
+  margin-bottom: 60px;
+}
+
+.card1__description--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.card1__img{
+  min-height: 492px;
+  min-width: 390px;
+  background-image: url("/img/card1.png");
+}
+
+.card1__img--mini{
+  min-height: 144px;
+  background: no-repeat url("/img/img_mini-card1.png");
+  position: relative;
+  top: 225px;
+  left: 205px;
+}
+
+.work__card2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 285px;
+  margin-left: 95px;
+}
+
+.card2__icon{
+  margin-left: 65px;
+}
+
+.card2__title{
+  max-width: 405px;
+  position: relative;
+  top: -35px;
+  left: 12px;
+  right: 0;
+}
+
+.card2__title--text{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: right;
+  color: #000000;
+  
+}
+
+.card2__description{
+  max-width: 420px;
+  margin-bottom: 37px;
+}
+
+.card2__description--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.card2__img{
+  background-image: url("/img/card2.png");
+  background-size: cover;
+  min-height: 492px;
+  min-width: 390px;
+}
+
+.work__card3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+
+.card3__icon{
+  margin-left: 10px;
+}
+
+.card3__title{
+  position: relative;
+  top: -60px;
+  left: -40px;
+  text-align: center;
+}
+
+.card3__title--text{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.card3__description{
+  margin-bottom: 46px;
+  max-width: 435px;
+}
+
+.card3__description--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.card3__img{
+  background-image: url("/img/card3.png");
+  max-width: 390px;
+  min-height: 492px;
+} 
+
+
