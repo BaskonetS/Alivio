@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  margin: 0 10px auto;
+  margin: 0 auto;
   font-size: 20px;
   font-family: "Lora", "Vollkorn", serif;
   min-width: 1440px;
@@ -41,8 +41,9 @@ a {
 
 .container {
   max-width: 1920px;
-  min-width: 1440px;
+  min-width: 1450px;
   margin: 0 auto;
+  padding: 0 5px;
   background-color: #ffffff;
 }
   
@@ -106,7 +107,6 @@ a {
 .btn__start-trial {
   background: #01996d;
   border: 1px solid #01996d;
-  box-sizing: border-box;
   border-radius: 4px;
   padding: 13px 50px 13px 50px;
   cursor: pointer;
@@ -387,6 +387,69 @@ a {
   background-image: url("/img/card3.png");
   max-width: 390px;
   min-height: 492px;
-} 
+}
 
+.history__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 922px;  
+  background: #245852;
+  margin-bottom: 120px;  
+}
 
+.history__descripnion{
+  display: flex;
+  flex-direction: column;
+  width: 645px;  
+}
+
+.history__descripnion--title{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.history__descripnion--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #FFFFFF;
+  margin-bottom: 57px;
+}
+
+.history__btn{
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  width: 240px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.history__btn--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.history__video--box{
+  min-height: 516px;
+  min-width: 895px;   
+  background-image: url("/img/preview.png");
+}
+
+.history__video--style{
+  min-height: 516px;
+  min-width: 895px;
+  border-radius: 16px;
+}
