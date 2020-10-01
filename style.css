@@ -106,7 +106,7 @@ a {
 
 .btn__start-trial {
   background: #01996d;
-  border: 1px solid #01996d;
+  border: none;  
   border-radius: 4px;
   padding: 13px 50px 13px 50px;
   cursor: pointer;
@@ -167,7 +167,7 @@ a {
   max-height: 65px;
   padding: 18px 35px ;
   background: #01996D;
-  border: 1px solid #01996D;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
   outline: none;
@@ -280,12 +280,12 @@ a {
 .card1__img{
   min-height: 492px;
   min-width: 390px;
-  background-image: url("/img/card1.png");
+  background-image: url("img/card1.png");
 }
 
 .card1__img--mini{
   min-height: 144px;
-  background: no-repeat url("/img/img_mini-card1.png");
+  background: no-repeat url("img/img_mini-card1.png");
   position: relative;
   top: 225px;
   left: 205px;
@@ -336,7 +336,7 @@ a {
 }
 
 .card2__img{
-  background-image: url("/img/card2.png");
+  background-image: url("img/card2.png");
   background-size: cover;
   min-height: 492px;
   min-width: 390px;
@@ -384,7 +384,7 @@ a {
 }
 
 .card3__img{
-  background-image: url("/img/card3.png");
+  background-image: url("img/card3.png");
   max-width: 390px;
   min-height: 492px;
 }
@@ -394,14 +394,13 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 922px;  
-  background: #245852;
-  margin-bottom: 120px;  
+  background: #245852;    
 }
 
 .history__descripnion{
   display: flex;
   flex-direction: column;
-  width: 645px;  
+  width: 592px;  
 }
 
 .history__descripnion--title{
@@ -426,7 +425,7 @@ a {
 
 .history__btn{
   background: #01996D;
-  border: 1px solid #01996D;
+  border: none;
   border-radius: 4px;
   width: 240px;
   height: 65px;
@@ -443,13 +442,191 @@ a {
 }
 
 .history__video--box{
+  margin-left: 31px;
   min-height: 516px;
   min-width: 895px;   
-  background-image: url("/img/preview.png");
+  background-image: url("img/preview.png");
 }
 
 .history__video--style{
   min-height: 516px;
   min-width: 895px;
   border-radius: 16px;
+  
+}
+
+.history__video--style{
+  box-shadow:5px 5px 5px 5px #000000 ;
+}
+
+.Our-product__wrapper{
+  display: flex;
+  justify-content: center;  
+}
+
+.Our-product__info{
+  margin-top: 120px;
+}
+
+.Our-product__info--card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  max-width: 296px;
+  min-height: 293px;
+  position: relative;
+  left: -59px;
+  top: -220px;
+  border-radius: 3.72971px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.info__card--subtitle{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  margin-top: 22px;
+  padding-bottom: 7px;
+  color: #000000;
+  border-bottom: 0.745942px solid #000000;
+}
+
+.img_card-info{
+  margin-top: 13.7px;
+  width: 57.44px;
+  height: 57.44px;
+}
+
+.info__card--name{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.9351px;
+  line-height: 157%;
+  margin: 10.44px 0 20.24px ;
+  color: #000000;
+}
+
+.info__card--title{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.9292px;
+  line-height: 157%;  
+  color: #000000;
+  margin-bottom: 15.93px;
+}
+
+.info__card--ul{
+  position: relative;
+  left: -8px;
+  margin: 0;
+  padding: 0;
+}
+
+.info__card--li{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.6195px;
+  line-height: 157%;  
+  color: #000000;
+  margin-top: 15.93px;
+}
+
+.info__card--li:first-child{
+  margin-top: 0;
+}
+
+.Our__description{
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 63.63px;
+}
+
+.Our__description--subtitle{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #424242;
+  margin-bottom: 10px;
+}
+
+.Our__description--title{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+  margin-bottom: 20px;
+}
+
+.Our__description--text{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  margin-bottom: 40px;
+}
+
+.Our__description--btn{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  width: 227px;
+  height: 65px;  
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #01996D;
+  border: none;  
+  border-radius: 4px;
+}
+
+.footer__wrapper{
+  height: 654px;
+  background-color: #245852;  
+  margin-bottom: 10px;
+}
+
+.footer__nav{
+  display: flex;
+  flex-direction: column;
+  margin-left: 275px;
+
+}
+
+.foter__nav--logo-text{
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: #FFFFFF;
+  margin-top: 95px;
+}
+
+.footer__nav--style{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav--link{
+  font-family:"Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 60px;
 }
