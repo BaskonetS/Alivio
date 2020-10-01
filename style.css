@@ -93,6 +93,7 @@ a {
   background: #ffffff;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .sing-in_text {
