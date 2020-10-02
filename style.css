@@ -164,17 +164,17 @@ a {
 }
 
 .intro-btn{
-  max-width: 210px;
-  max-height: 65px;
-  padding: 18px 35px ;
-  background: #01996D;
+  max-width: 227px;
+  padding: 20px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   outline: none;
+  background: #01996D;
+  
 }
 
-.intro-btn_text{
+.intro-btn_text{  
   font-family: "Lora";
   font-style: normal;
   font-weight: normal;
@@ -182,6 +182,8 @@ a {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+  
+  
 }
 
 .work{
@@ -392,6 +394,7 @@ a {
 
 .history__wrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 922px;  
@@ -428,8 +431,9 @@ a {
   background: #01996D;
   border: none;
   border-radius: 4px;
-  width: 240px;
-  height: 65px;
+  max-width: 240px;
+  padding: 20px 0;
+  outline: none;
   cursor: pointer;
 }
 
@@ -443,21 +447,18 @@ a {
 }
 
 .history__video--box{
+  display: flex;  
   margin-left: 31px;
   min-height: 516px;
   min-width: 895px;   
   background-image: url("img/preview.png");
 }
 
-.history__video--style{
+.history__video--style{  
   min-height: 516px;
   min-width: 895px;
   border-radius: 16px;
-  
-}
-
-.history__video--style{
-  box-shadow:5px 5px 5px 5px #000000 ;
+  box-shadow: 0px 0px 10px 5px #ffffff ;
 }
 
 .Our-product__wrapper{
@@ -579,19 +580,23 @@ a {
   margin-bottom: 40px;
 }
 
-.Our__description--btn{
+.Our__description--btn{  
+  max-width: 227px;    
+  cursor: pointer;  
+  background: #01996D;
+  border: none;  
+  border-radius: 4px;
+  outline: none;
+  padding: 20px 0;
+}
+
+.Our__description--btn-text{
   font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
-  width: 227px;
-  height: 65px;  
-  cursor: pointer;
   color: #FFFFFF;
-  background: #01996D;
-  border: none;  
-  border-radius: 4px;
 }
 
 .footer__wrapper{
