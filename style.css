@@ -42,8 +42,7 @@ a {
 .container {
   max-width: 1920px;
   min-width: 1450px;
-  margin: 0 auto;
-  padding: 0 5px;
+  margin: 0 auto;  
   background-color: #ffffff;
 }
   
