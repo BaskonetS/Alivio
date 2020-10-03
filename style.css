@@ -50,7 +50,7 @@ a {
   display: flex;
   min-height: 85px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-bottom: 1px solid #d6d6d6;
 }
 
@@ -108,7 +108,7 @@ a {
   background: #01996d;
   border: none;  
   border-radius: 4px;
-  padding: 13px 50px 13px 50px;
+  padding: 13px 45px 13px 45px;
   cursor: pointer;
   outline: none;
   margin-left: 25px;
